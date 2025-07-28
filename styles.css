@@ -12,13 +12,18 @@
 body{
     min-height: 100%;
     margin: 0;
+<<<<<<< HEAD
     /* font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; */
     font-family: "Regular";
+=======
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+>>>>>>> f688f59948edda3207ff5c3d69c0060722c04ecc
     font-size: 13px;
     line-height: 1.45857143;
     color: #424553;
     background-color: #fff;
 }
+<<<<<<< HEAD
 header{
     position: fixed;
     background-color: #fff;
@@ -27,6 +32,8 @@ header{
     /* height: 60px; */
     height: 55px;
 }
+=======
+>>>>>>> f688f59948edda3207ff5c3d69c0060722c04ecc
 .nav{
     position: relative;
     /* align-items: center; */
@@ -35,9 +42,15 @@ header{
 .app-nav{
     /* background-color: #fff; */
     position: fixed;
+<<<<<<< HEAD
     /* z-index: 100; */
     /* width: 100%; */
     /* height: 60px; */
+=======
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+>>>>>>> f688f59948edda3207ff5c3d69c0060722c04ecc
     box-shadow: 0 1px 2px 0 rgba(148, 150, 159, .3);
     /* starting */
     display: flex;
@@ -56,8 +69,13 @@ header{
     /* gap: 12px; */
     margin-top: 16px;
     gap: 16px;
+<<<<<<< HEAD
     margin-left: 46px;
     /* margin-right: 12px; */
+=======
+    margin-left: 41px;
+    margin-right: 12px;
+>>>>>>> f688f59948edda3207ff5c3d69c0060722c04ecc
 }
 .icon-sector1{
     /* margin: 17px 16px 16px 0; */
@@ -117,6 +135,7 @@ header{
     color: #fff;
 }
 .banner-text{
+<<<<<<< HEAD
     font-weight: 400;
     font-family: Bold;
 }
@@ -191,6 +210,11 @@ header{
     position: relative;
     overflow: hidden;
 }
+=======
+    font-weight: 700;
+}
+
+>>>>>>> f688f59948edda3207ff5c3d69c0060722c04ecc
 .list{
     list-style: none;
     padding: 0;
@@ -287,8 +311,11 @@ a{
 }
 .content-wrap{
     position: relative;
+<<<<<<< HEAD
     font-family: "Regular";
     line-height: 1.42857143;
+=======
+>>>>>>> f688f59948edda3207ff5c3d69c0060722c04ecc
 }
 .name{
     padding: 8px 0;
@@ -428,6 +455,7 @@ h3{
     color: #fff;
     opacity: 1;
     transition: opacity .3s linear;
+<<<<<<< HEAD
 }
 .AD{
     background-color: #a9abb3;
@@ -742,3 +770,53 @@ h3{
     cursor: pointer;
     margin-left: 8px;
 }
+=======
+    
+}
+/* .app-menu{
+    display: inline-block;
+}
+.back-icon{
+    margin-left: 16px !important;
+    display: inline-block;
+    vertical-align: top;
+    width: 24px;
+    height: 24px;
+    margin: 16px 16px 16px 0;
+    overflow: hidden;
+}
+.micon{
+    margin-left: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 24px;
+    height: 24px;
+    margin: 16px 16px 16px 0;
+}
+.micon-img{
+    overflow: hidden;
+}
+.top-text{
+    top: 11px;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    vertical-align: top;
+    font-weight: 700;
+    font-family: Regular;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    width: calc(100% - 260px);
+    
+}
+.top-text1{
+    font-weight: 700;
+}
+.top-text2{
+    font-size: 12px;
+    font-weight: 400;
+}
+ */
+>>>>>>> f688f59948edda3207ff5c3d69c0060722c04ecc
