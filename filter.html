@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#ffffff">
+        <link rel ="stylesheet" href="filter.css">
+        <title>myntra.com/filter</title>
+    </head>
+    <body>
+        <head >
+            <div>
+            <div class="filter-lay">
+                <div class="sample">
+                    <div class="half-lay">
+                        <div class="close-block">
+                            <span>FILTERS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-filter">
+                <div class="filter-div">
+                    <ul class="filter-plane">
+                        <div class="ripp-cnt">
+                            <li class="select" id="Gender">
+                                <label>Gender</label>
+                                <span class="product"></span>
+                            </li>
+                            <div class="ssample"></div>
+                        </div>
+                        <div class="ripp-cnt">
+                            <li class="unselect" onclick="change(this)" id="Categories">
+                                <label class="Categories" >Categories</label>
+                                <span class="product"></span>
+                            </li>
+                            <div class="ssample"></div>
+                        </div>
+                        <div class="ripp-cnt">
+                            <li class="unselect" onclick="change(this)" id="Size">
+                                <label class="Categories" >Size</label>
+                                <span class="product"></span>
+                            </li>
+                            <div class="ssample"></div>
+                        </div>
+                        <div class="ripp-cnt">
+                            <li class="unselect" onclick="change(this)">
+                                <label class="Categories" >Price</label>
+                                <span class="product"></span>
+                            </li>
+                            <div class="ssample"></div>
+                        </div>
+                        <div class="ripp-cnt">
+                            <li class="unselect" onclick="change(this)" id="Brand">
+                                <label class="Categories" >Brand</label>
+                                <span class="product"></span>
+                            </li>
+                            <div class="ssample"></div>
+                        </div>
+                        <div class="ripp-cnt">
+                            <li class="unselect" onclick="change(this)" id="Color">
+                                <label class="Categories" >Color</label>
+                                <span class="product"></span>
+                            </li>
+                            <div class="ssample"></div>
+                        </div>
+                        <div class="ripp-cnt">
+                            <li class="unselect" onclick="change(this)" id="Discount">
+                                <label class="Categories" >Discount <br> Range</label>
+                                <span class="product"></span>
+                            </li>
+                            <div class="ssample"></div>
+                        </div>
+                        <div class="ripp-cnt">
+                            <li class="unselect" onclick="change(this)">
+                                <label class="Categories" >Bundles</label>
+                                <span class="product"></span>
+                            </li>
+                            <div class="ssample"></div>
+                        </div>
+                        <div class="ripp-cnt">
+                            <li class="unselect" onclick="change(this)">
+                                <label class="Categories" >Country of Origin</label>
+                                <span class="product"></span>
+                            </li>
+                            <div class="ssample"></div>
+                        </div>
+                        <div class="ripp-cnt">
+                            <li class="unselect" onclick="change(this)">
+                                <span class="filter-hilight"></span>
+                                <label class="Categories">More Filters</label>
+                                <span class="product"></span>
+                            </li>
+                            <div class="ssample"></div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="col-2-3" id="col-2-3">
+                    <!-- <ul id="sizeFilter" class="filtertop"></ul> -->
+                    <ul class="filterop">
+                        <div>
+                            <li class="ntmlval">
+                                <label class="checkBox">
+                                    <input type="checkbox" name="filtervalue" value="boys">
+                                    <div class="checkind">
+                                    </div>
+                                    <span class="bb">Boys</span>
+                                    <span class="pul-right">1053</span>
+                                </label>
+                            </li>
+                            <li class="ntmlval">
+                                <label class="checkBox">
+                                    <input type="checkbox" name="filtervalue" value="girls">
+                                    <div class="checkind"></div>
+                                    <spa class="bb">Girls</spa> 
+                                    <span class="pul-right">64080</span>
+                                </label>
+                            </li>
+                            <li class="ntmlval">
+                                <label class="checkBox">
+                                    <input type="checkbox" name="filtervalue" value="women">
+                                    <div class="checkind"></div>
+                                    <span class="bb">Women</span> 
+                                    <span class="pul-right">207179</span>
+                                </label>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+        </head>
+        <div>
+            <div class="bottomm" id="bottomm">
+                <div class="col-1-2" id="Close">
+                    <div class="ripple-cntr" id="ripple-cntr">
+                        <button class="btn-default">Close</button>
+                        <div class="tripple"></div>
+                    </div>
+                </div>
+                <div class="btn-divider"></div>
+                    <div class="ripple-cntr">
+                        <button class="btn-secondary">Apply</button>
+                        <div class="tripple"></div>
+                    </div>
+                
+            </div>
+        </div>
+        </div>
+        <script src="filter.js"></script>
+    </body>
+</html>
