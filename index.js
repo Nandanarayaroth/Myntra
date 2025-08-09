@@ -31,8 +31,8 @@ document.getElementById("add-icon").addEventListener('click',function() {
 
     const installBtn = document.createElement('button')
     installBtn.innerText = 'Install'
+
     
-    const delt= document.createElement('button')
 })
 
 
